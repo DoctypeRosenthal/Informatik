@@ -1,0 +1,11 @@
+Die Lottozahlen sind: [15, 5, 21, 23, 12, 26]
+Programm beenden? 1: ja, 0: nein!
+0
+Die Lottozahlen sind: [28, 4, 43, 20, 48, 24]
+Programm beenden? 1: ja, 0: nein!
+0
+Die Lottozahlen sind: [20, 36, 4, 8, 47, 37]
+Programm beenden? 1: ja, 0: nein!
+1
+
+Process finished with exit code 0

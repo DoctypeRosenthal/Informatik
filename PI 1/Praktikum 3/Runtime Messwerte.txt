@@ -1,0 +1,32 @@
+Bitte auswählen:
+1: vordefiniertes Array verwenden
+2: Array selbst definierten
+1
+[-10.0, 2.5, 3.0, -3.24, 4.0, 5.0] hat folgende Eigenschaften:
+Betrag Kleinstes Element: 2.5
+Betrag größtes Element: 10.0
+Arithmetisches Mittel: 0.20999999999999996
+
+Process finished with exit code 0
+
+------------------------------------------------------------------------
+
+Bitte auswählen:
+1: vordefiniertes Array verwenden
+2: Array selbst definierten
+2
+Bitte die Array-Größe eingeben
+6
+Bitte die Messwerte einen nach dem anderen eingeben
+1
+-10
+-30
+-4
+5
+6
+[1.0, -10.0, -30.0, -4.0, 5.0, 6.0] hat folgende Eigenschaften:
+Betrag Kleinstes Element: 1.0
+Betrag größtes Element: 30.0
+Arithmetisches Mittel: -5.333333333333333
+
+Process finished with exit code 0

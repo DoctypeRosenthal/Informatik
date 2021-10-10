@@ -1,0 +1,10 @@
+10;13.5;Feuerlöscher;Dortmund
+11;12.0;Rasenmäher;Herdecke
+9;300.98;Käsereibe;Bremen
+20;4.5;Fahrrad;Bonn
+15;50.99;Taschenrechner;Hagen
+30;10.2;Handy;Mühlheim
+7;200.0;Auto;Bodensee
+3;99.99;Bildschirm;Köln
+5;100.99;Monitor;Hamburg
+40;20.3;Maus;München

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;bubble()&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="abbr">
+	<children>
+		<instruction text="&#34;setze: Anzahl Vergleiche: vergleiche = 0&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;setze: unsortiert = true&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;iox ∉ [1,3]&#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;Ausgabe: Kein gültiges Sortier-Kriterium&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+			</qFalse>
+		</alternative>
+		<while text="&#34;solange unsortiert = true&#34;" comment="&#34;&#34;" color="ffffff">
+			<qWhile>
+				<instruction text="&#34;setze: unsortiert = false&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<while text="&#34;zähle i von 0 bis Länge dsliste, Schrittweite 1&#34;" comment="&#34;&#34;" color="ffffff">
+					<qWhile>
+						<instruction text="&#34;setze: Maschine 1: m1 = (i-1)-tes Element aus dsliste&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<instruction text="&#34;setze: Maschine 2: m2 = i-tes Element aus dsliste&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<case text="&#34;iox&#34;,&#34;1&#34;,&#34;2&#34;,&#34;3&#34;" comment="&#34;&#34;" color="ffffff">
+							<qCase>
+								<alternative text="&#34;m1.mabez lexikographisch größer als m2.mabez&#34;" comment="&#34;&#34;" color="ffffff">
+									<qTrue>
+										<instruction text="&#34;setze: unsortiert = true&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+									</qTrue>
+									<qFalse>
+									</qFalse>
+								</alternative>
+							</qCase>
+							<qCase>
+								<alternative text="&#34;m1.preis &#62; m2.preis&#34;" comment="&#34;&#34;" color="ffffff">
+									<qTrue>
+										<instruction text="&#34;setze: unsortiert = true&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+									</qTrue>
+									<qFalse>
+									</qFalse>
+								</alternative>
+							</qCase>
+							<qCase>
+								<alternative text="&#34;m1.stao lexikographisch größer als m2.stao&#34;" comment="&#34;&#34;" color="ffffff">
+									<qTrue>
+										<instruction text="&#34;setze: unsortiert = true&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+									</qTrue>
+									<qFalse>
+									</qFalse>
+								</alternative>
+							</qCase>
+						</case>
+						<alternative text="&#34;unsortiert = true&#34;" comment="&#34;&#34;" color="ffffff">
+							<qTrue>
+								<instruction text="&#34;setze: vertausche m2 und und m1 in dsliste&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+							</qTrue>
+							<qFalse>
+							</qFalse>
+						</alternative>
+						<instruction text="&#34;setze: vergleiche = vergleiche + 1&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qWhile>
+				</while>
+			</qWhile>
+		</while>
+		<instruction text="&#34;Ausgabe: vergleiche&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+	</children>
+</root>

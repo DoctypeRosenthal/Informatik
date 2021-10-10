@@ -1,0 +1,7 @@
+Bitte eine Zahl eingeben
+Inputfehler: For input string: ""
+Bitte korrekten Integerwert eingeben:
+Inputfehler: For input string: ""
+Bitte korrekten Integerwert eingeben:
+Inputfehler: For input string: "dir"
+Bitte korrekten Integerwert eingeben:

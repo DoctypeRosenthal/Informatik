@@ -1,0 +1,10 @@
+1;3.5;Staubsauger;ALDI
+2;19.90;PC;Mühlheim(Ruhr)
+3;99.99;Auto;Dortmund
+4;55.66;Rasierer;Saturn
+5;50.0;Fahrrad;Düsseldorf
+6;3.5;Staubsauger;Köln
+8;100.99;Auto;Hagen
+7;19.99;PC;Nippes
+9;55.50;Rasierer;Bonn
+10;50.0;Fahrrad;Köln-Deutz

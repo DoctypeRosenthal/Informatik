@@ -1,0 +1,9 @@
+Funktionswerte:
+für x = -3 ist y = 0
+für x = -2 ist y = 5
+für x = -1 ist y = 0
+für x = 0 ist y = -9
+für x = 1 ist y = -16
+für x = 2 ist y = -15
+für x = 3 ist y = 0
+Ende der Berechnung

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;sortDA()&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;setze: Hilfsliste hlist = Kopie von dsliste&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;setze: vergleiche = 0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<while text="&#34;für jede Maschine ma aus Maschinenliste dsliste&#34;" comment="&#34;&#34;" color="ffffff">
+			<qWhile>
+				<alternative text="&#34;|hlist| = 0&#34;" comment="&#34;&#34;" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;setze: hlist₁ = ma&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<alternative text="&#34;ordx(ma) &#60; ordx(hlist₁)&#34;" comment="&#34;&#34;" color="ffffff">
+							<qTrue>
+								<instruction text="&#34;setze: hlist = (ma, hlist₁, ..., hlistₙ)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+								<instruction text="&#34;setze: vergleiche = vergleiche + 1&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+							</qTrue>
+							<qFalse>
+								<alternative text="&#34;ordx(ma) ≥ ordx(hlistₙ), n = |hlist|&#34;" comment="&#34;&#34;" color="ffffff">
+									<qTrue>
+										<instruction text="&#34;setze: hlistₙ₊₁ = ma&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+										<instruction text="&#34;setze: vergleiche = vergleiche + 1&#34;" comment="" color="ffffff" rotated="0"></instruction>
+									</qTrue>
+									<qFalse>
+										<instruction text="&#34;setze: Sucherfolgs-Variable: found = false&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+										<while text="&#34;zähle i von 0 bis |hlist| - 2, Schrittweite 1&#34;" comment="&#34;&#34;" color="ffffff">
+											<qWhile>
+												<alternative text="&#34;found = true&#34;" comment="&#34;&#34;" color="ffffff">
+													<qTrue>
+													</qTrue>
+													<qFalse>
+														<alternative text="&#34;ordx(ma) ≥ ordx(hlistᵢ) ⋀ ordx(ma) &#60; ordx(hlistᵢ₊₁)&#34;" comment="&#34;&#34;" color="ffffff">
+															<qTrue>
+																<instruction text="&#34;setze: hlist = (hlist₁, ..., hlistᵢ, ma, hlistᵢ₊₁, ..., hlistₙ)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+																<instruction text="&#34;setze: found = true&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+															</qTrue>
+															<qFalse>
+															</qFalse>
+														</alternative>
+														<instruction text="&#34;setze: vergleiche = vergleiche + 1&#34;" comment="" color="ffffff" rotated="0"></instruction>
+													</qFalse>
+												</alternative>
+											</qWhile>
+										</while>
+									</qFalse>
+								</alternative>
+							</qFalse>
+						</alternative>
+					</qFalse>
+				</alternative>
+			</qWhile>
+		</while>
+		<instruction text="&#34;setze: dsliste = hlist&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Rückgabe: vergleiche&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+	</children>
+</root>

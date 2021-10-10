@@ -1,0 +1,20 @@
+Backus-Naur-Form Datensatzstruktur Praktikum3_Masch.txt
+
+Alphabet: {A,B,...,Z,a,b,...z,0,1,2,...,9, ,.,;}
+<KlBuch> := a|b|...|z
+<GrBuch> := A|B|...|Z
+<Wort> := [{<KlBuch>| |<GrBuch>}]
+<Ziff0> := 0|1|...|9
+<Ziff1> := 1|...|9
+
+<MaschNr> := <Ziff1>[{<Ziff0>}]
+<Preis> := <Ziff1>[{<Ziff0>}][.<Ziff0>[{<Ziff0>}]]
+
+Man beachte, dass beim Standort sowie bei der Maschinenbezeichnung in der CSV-Datei auch Kleinbuchstaben am Anfang zugelassen sind!
+<Stao> := <Wort>
+<MaBez> := <Wort>
+
+Ein Datensatz hat dann diese Struktur:
+<CSV> := [<MaschNr>][;<Preis>][;<MaBez>][;<Stao>]
+Es ist möglich, dass ein oder mehrere Attriute fehlen, was den Datensatz zwar ungültig macht, aber erlaubt ist!
+

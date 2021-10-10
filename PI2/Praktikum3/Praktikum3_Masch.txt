@@ -1,0 +1,16 @@
+10;13.5;Feuerlöscher;Dortmund
+11;12;Rasenmäher;Herdecke
+15;50.99;Taschenrechner;Hagen
+20;4.5;Fahrrad;Bonn
+3;99.99;Bildschirm;Köln
+5;100.99;Monitor;Hamburg
+7;200;Auto;Bodensee
+9;300.98;Käsereibe;Bremen
+40;20.3;Maus;München
+40;20.3;Maus;München
+30;10.2;Handy;Mühlheim
+30;10.2;Handy;Mühlheim
+99;12;Rasenmäher;grevenbroich
+3;Stereoanlage;Köln
+100;2.22;5tisch;Nippes
+101;3.55;ufo;area51

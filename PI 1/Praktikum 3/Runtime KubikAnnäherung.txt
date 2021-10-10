@@ -1,0 +1,16 @@
+ Bitte geben Sie Zahl a ein aus der die Kubikwurzel gezogen werden soll
+3
+ Bitte geben sie die Genauigkeitsschranke eps ein
+2
+ Ihr Annäherungswert xn = 2.1111111111111107 dieser wurde nach 1 Schleifenschritten berechnet, ein Vergleichswert zu der errechneten Kubikwurzel ist 1.4422495703074083
+ Wollen Sie noch eine Kubikwurzel ziehen? Ja (1) Nein (2)
+1
+ Bitte geben Sie Zahl a ein aus der die Kubikwurzel gezogen werden soll
+16
+ Bitte geben sie die Genauigkeitsschranke eps ein
+.5
+ Ihr Annäherungswert xn = 2.5401996547372176 dieser wurde nach 6 Schleifenschritten berechnet, ein Vergleichswert zu der errechneten Kubikwurzel ist 2.5198420997897464
+ Wollen Sie noch eine Kubikwurzel ziehen? Ja (1) Nein (2)
+2
+
+Process finished with exit code 0
